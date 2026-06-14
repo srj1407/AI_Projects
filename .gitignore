@@ -1,0 +1,14 @@
+# --- Python Environment ---
+.venv/
+__pycache__/
+*.pyc
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs and Systems ---
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,19 @@
+[project]
+name = "my_project"
+version = "0.1.0"
+description = "YT summarizer project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "google-genai>=2.8.0",
+    "gradio>=6.18.0",
+    "openai>=2.41.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "youtube-transcript-api>=1.2.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
