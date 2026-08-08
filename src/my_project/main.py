@@ -1,7 +1,7 @@
-from my_project import app
+from smart_assistant import ask
 
 def main():
-    app()
+    ask()
 
 
 if __name__ == "__main__":
